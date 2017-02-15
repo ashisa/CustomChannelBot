@@ -10,6 +10,9 @@ This respository contains code that can be deployed as an Azure Fuction app. The
 
 The benefit of this code is that you can start leveraging the Bot Framework capabilities with your existing messaging channels that you are are using or you maintain for your customers as a providers (SMS, email, chat apps etc).
 
+Link to actual code: https://raw.githubusercontent.com/ashisa/CustomChannelBot/master/CustomChannelBot/CustomChannelBot/CustomChannelFunction/run.csx
+
+
 #How does this work?
 
 This code makes use of the Bot Framework DirectLine APIs to make this possible. The ideal flow is that when you receive a message from your users using a channel that is not supported with Bot Framework at the moment - you can pass that message to this Azure Function app which uses an HTTP trigger. The Azure Function app connects to the Bot Framework bot using the Directline APIs and waits for the bot to respond to the message and passes it back to you as a JSON response. You can now process this information and pass the bot response back to your users. You also get the conversation id back in the response which you can use to continuw the conversation if required.
