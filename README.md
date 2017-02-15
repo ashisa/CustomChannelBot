@@ -20,6 +20,6 @@ This code makes use of the Bot Framework DirectLine APIs to make this possible. 
 2. Since we also use Newtonsoft.json, you also need to create/copy the project.json file so that the require nuget packages can be installed.
 3. Interacting with the Bot Framework Directline APIs requires a Directline secret which you can get from the https://dev.botframework.com portal by enabling the Directline channel in the bot configuration. Copy and paste that on the line no. 11 in your run.csx file.
 
-You are ready to go now - use your favorite browser and access this URL - https://<your-function-app-URL>?message=message-from-your-channel&id=0
+You are ready to go now - use your favorite browser and access this URL - https://your-function-app-URL?message=message-from-your-channel&id=0
 
 This should get you the same response back that you would see when using one of the supported channels such as Skype, FB Messenger, Teams or Slack etc.
