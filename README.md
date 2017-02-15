@@ -8,7 +8,7 @@ author: Ashish Sahu
 
 This respository contains code that can be deployed as an Azure Fuction app. The purpose of this code is to allow you to connect your own messaging channels with the bots that you can create using Microsoft Bot Framework.
 
-The benefit of this code is that you can start leveraging the Bot Framework capabilities with your existing messaging channels that you are are using or you maintain for your customers as a providers (SMS, email, chap apps etc).
+The benefit of this code is that you can start leveraging the Bot Framework capabilities with your existing messaging channels that you are are using or you maintain for your customers as a providers (SMS, email, chat apps etc).
 
 #How does this work?
 
