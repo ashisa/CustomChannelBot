@@ -10,7 +10,8 @@ This respository contains code that can be deployed as an Azure Fuction app. The
 
 The benefit of this code is that you can start leveraging the Bot Framework capabilities with your existing messaging channels that you are are using or you maintain for your customers as a providers (SMS, email, chat apps etc).
 
-Link to actual code: https://raw.githubusercontent.com/ashisa/CustomChannelBot/master/CustomChannelBot/CustomChannelBot/CustomChannelFunction/run.csx
+Direct link to interesting code:
+https://raw.githubusercontent.com/ashisa/CustomChannelBot/master/CustomChannelBot/CustomChannelBot/CustomChannelFunction/run.csx
 
 
 #How does this work?
